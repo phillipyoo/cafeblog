@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  padding: 20px;
+  background: #cec7c08a;
+  color: #443f3d;
+}
+
+header h1 {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 250px auto 250px auto;
+      grid-template-columns: 250px auto 250px auto;
+  grid-gap: 20px;
+  background-color: rgba(149, 177, 200, 0.315);
+  padding: 30px;
+}
+
+.grid-container img {
+  height: 300px;
+  width: 400px;
+}
+
+.grid-container a {
+  font-style: italic;
+  color: black;
+}
+
+.grid-container h3 {
+  font-family: 'Proza Libre', sans-serif;
+}
+/*# sourceMappingURL=bestgccafe.css.map */
